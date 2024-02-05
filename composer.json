@@ -1,0 +1,24 @@
+{
+    "name": "netbhaari/netlib",
+    "description": "PHP Route System",
+    "type": "library",
+    "keywords": ["netbhaari", "netlib", "route", "system"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shanil Chandrakant Patil",
+            "email": "netbhaari@email.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "FileLocator.php"
+        ],
+        "psr-4": {
+            "NetBhaari\\NetLib\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.0.0"
+}
